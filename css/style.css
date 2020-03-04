@@ -133,6 +133,9 @@ ul.avatars {
 }
 
 span.avatar-title {
+    display: flex;
+    padding: 0px 0px 0px 20px;
+    text-align: left;
     font-size: 10px;
     font-weight: 400;
     color: rgb(0, 100, 183);
@@ -169,7 +172,12 @@ span.avatars__others {
 .credit-container {
     display: flex;
     justify-content: right;
-    text-align: right;
+    text-align: center;
     padding: 0px 5px 0px 0px;
     width: 50%;
+}
+
+span.credits-title {
+    color: rgb(0, 100, 183);
+    padding: 5px;
 }
